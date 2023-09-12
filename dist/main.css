@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    padding: 12px;
+    max-height: 120px;
+    color: #000;
+    display: flex;
+    position: fixed;
+}
+
+.nav {
+    display: flex;
+    gap: 12px;
+}
+
+#home img {
+    width: 350px;
+    height: auto;
+}
+
+#text {
+    max-width: 220px;
+}
+
+#home {
+    height: 100vh;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+    margin-left: 25%;
+}
+
+#project-title {
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: #0000003b;
+    padding: 10px;
+    border-radius: 20px;
+    display: none;
+}
+
+.card p {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.card img {
+    height: 180px;
+    width: 280px;
+    border-radius: 12px;
+}
+
+#ilustration-projects img {
+    width: 300px;
+    height: auto;
+}
+
+.projects {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 300px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-carousel {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+footer {
+    background-color: #000000b6;
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes img {
+    height: 30px;
+    width: 30px;
+}
+
+.redes {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+
+
